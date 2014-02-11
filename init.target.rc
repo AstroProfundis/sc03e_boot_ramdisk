@@ -1,5 +1,4 @@
 import init.bt.rc
-import init.carrier.rc
 
 on init
     # Vibetonz
@@ -42,7 +41,6 @@ on post-fs-data
     # connections on high-throughput links get dropped when
     # an ack packet comes out of order
     write /proc/sys/net/netfilter/nf_conntrack_tcp_be_liberal 1
-
 
 # Restorecon
     restorecon /efs/bluetooth/bt_addr
