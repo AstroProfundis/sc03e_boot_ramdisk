@@ -1,5 +1,4 @@
 import init.bt.rc
-import init.carrier.rc
 
 on init
     # Vibetonz
